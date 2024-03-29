@@ -62,7 +62,7 @@ def get_field_of_work():
     input_text = st.text_input(label="Customers main field of work", key="field of work_input")
     return input_text
 
-field of work_input = get_field of work()
+field_of_work_input = get_field_of_work()
 
 def get_text():
     input_text = st.text_area(label="Content Input", label_visibility='collapsed', placeholder="Your content...", key="content_input")
