@@ -13,7 +13,7 @@ template = """
     FORMAT: Present the result in the following order: (PRODUCT DESCRIPTION), (BENEFITS), (USE CASE);
     PRODUCT DESCRIPTION: describe the product in 5 sentences;
     BENEFITS: describe in 3 sentences why this product is perfect considering customers age group and field of work;
-    USE CASE: write a story in 5 sentences, of an example work day taking into account field of work {fieldofwork} and age {agegroup}, write a story in first person, example "I started my Monday morning with ...";
+    USE CASE: write a story in 5 sentences, of an example work day taking into account field of work {fieldofwork} and age {agegroup}, write a story in first person, example "I started my Monday morning with ..."; OUTPUT TEXT in Estonian; 
 """
 
 prompt = PromptTemplate(
