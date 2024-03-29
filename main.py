@@ -58,7 +58,7 @@ with col1:
         'Which age group would you like your content to target?',
         ('9-15', '16-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', '80-100'))
     
-def get_field of work():
+def get_field_of_work():
     input_text = st.text_input(label="Customers main field of work", key="field of work_input")
     return input_text
 
